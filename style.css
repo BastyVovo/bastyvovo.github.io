@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #1D1F21;
+    font-family: 'Poppins', sans-serif;
+}
+#heading {
+    background: black;
+    padding: 30px;
+    display: flex;
+}
+#hcontain {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+#hcontain img, #hcontent{
+    width: 100px;
+    margin: 0 12px;
+}
+#hcontent h1, p{
+    color: white;
+    font-size: 36px;
+}
+#hcontent p {
+    font-size: 21px;
+    font-family: cursive;
+}
+
+#design1 {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #8FBC8F, #2F4F4F,#6495ED, #D2691E, #D2691E, #7FFF00, #DC143C, #9400D3, #8B0000, #6495ED, #A9A9A9, #B22222, #D2691E, #7FFF00, #BDB76B, #0000FF, #A9A9A9, #9400D3, #00008B, #0000FF);
+}
+
+
+#section {
+    display: flex;
+}
+#scontain {
+    background: #A4732E;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+.scon {
+    border-radius: 30px;
+    margin-bottom: 30px;
+    width: 210px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset -2px -2px 6px #d9cbc3, inset 2px 2px 6px #381904;
+}
+#scon {
+    height: 153px;
+}
+.scon img{
+    width: 150px;
+    margin: 15px auto;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 6px #503423); 
+}
+.scon img:hover {
+    filter: drop-shadow(6px 6px 9px #503423);
+    transition: 300ms;
+    width: 153px;
+}
+.scon p {
+    margin: 0 auto;
+    font-size: 15px;
+    color: #e9e5e2
+}
+span {
+    font-family: fantasy;
+    margin: 0 10px;
+}
+
+
+#footer {
+    background: black;
+    padding: 10px;
+    display: flex;
+}
+#fcontain {
+    margin: 0 auto;
+    text-align: center;
+}
+#fcontain img{
+    width: 39px;
+    cursor: pointer;
+}
+#fcontain p {
+    font-size: 15px;
+}
+#fimg {
+    position: absolute;
+    opacity: 0%;
+}
+#fimg:hover {
+    opacity: 100%;
+    transition: 300ms;
+}
+
+@media screen and (min-width: 760px) {
+    #scontain {
+        padding: 30px 30px;
+        margin: 0 auto;
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .scon {
+        width: 310px;
+        height: 275px;
+        margin: 30px 20px;
+    }
+    #scon {
+        height: 190px;
+    }
+    .scon img{
+        width: 200px;
+    }
+    .scon img:hover {
+        width: 203px;
+    }
+    
+    .scon p {
+        font-size: 18px;
+    }
+    
+    
+    #fcontain img{
+        width: 60px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #hcontain img, #hcontent {
+        width: 200px;
+    }
+    #hcontent h1, p {
+        font-size: 54px;
+    }
+    #hcontent p {
+        font-size: 39px;
+    }
+    
+    
+    #scontain {
+        width: 950px;
+    }
+    .scon {
+        width: 410px;
+        height: 390px;
+        margin: 30px 30px;
+    }
+    #scon {
+        height: 250px;
+    }
+    .scon img{
+        width: 300px;
+    }
+    .scon img:hover {
+        width: 305px;
+    }
+    .scon p {
+        font-size: 24px;
+    }
+    
+    
+     #fcontain img{
+        width: 100px;
+    }
+    
+}
